@@ -1,0 +1,64 @@
+
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+ 
+.alinhaimagem
+{
+    width: 100%;
+    background-color: #008b76;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.imagempadrao{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+
+}
+
+.alinhaimagem li
+{
+    text-align: center;
+    justify-content: center; /* Alinha horizontalmente no centro */
+}
+
+.alinhaimagem ul li
+{
+    width: 80%;
+    height: 28rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+}
+
+.alinhaimagem ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.alinhaimagem ul li p
+{
+    text-align: justify;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.alinhaimagem a 
+{
+    color: #03695a;
+    text-decoration-color: #03695a;
+}

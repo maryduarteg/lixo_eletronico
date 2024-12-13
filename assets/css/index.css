@@ -1,0 +1,333 @@
+/*Importar fonte do google*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); 
+
+/*Definir variáveis padrões de cores*/
+:root
+{
+    --first: #FFFF;
+    --second: #36BFB1;
+    --third: #038C73;
+    --fourth: #02735E;
+    --fifth: #014034;
+    --sixth: #0D0D0D;
+    --seventh: #000000;
+}   
+/*Fonte padrão do texto*/
+*
+{
+    font-family: 'Inter', sans-serif;
+}
+html, body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body
+{
+    width: 100vw;
+}
+
+.content
+{
+    width: 80rem;
+    margin: 0 auto;
+}
+.container
+{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--fourth);
+}
+
+    
+.titulo
+{
+    float: left;
+    font-size: small;
+    padding-left: 2rem;
+    margin-top: 0.25rem;
+    border-right: 1px solid var(--sixth);
+    padding-right: 1rem;
+}
+.titulo a 
+{
+    text-decoration: none;
+    color: var(--first);
+}
+a:hover
+{
+    color: var(--primary);
+}
+.ul-nav
+{
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    text-align: center;
+}
+.nav-item
+{
+    padding: 1rem;
+    margin-top: 0.25rem;
+}
+
+/*adicionar nos outros*/
+
+.nav-item:hover
+{
+    border-bottom: 2px solid var(--fifth);
+}
+
+.ul-nav a
+{
+    text-decoration: none;
+    color: var(--first);
+}
+.ul-nav a:hover
+{
+    color: var(--sixth);
+    text-decoration: none;
+}
+
+/* header */
+
+.introduction
+{
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.intro-text
+{
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.introduction p
+{
+    width: 30rem;
+    text-align: justify;
+}
+.image-align
+{
+    margin-top: 2rem;
+}
+
+.image-align img
+{
+    width: 30rem;
+    height: 25rem;
+    margin-right: 2rem;
+}
+.button
+{
+    width: 20rem;
+    margin: 0 auto;
+}
+.button button a
+{
+    text-decoration: none;
+    color: var(--first);
+    font-size: 1rem;
+}
+.button button
+{
+    background-color: var(--fifth);
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.button button:hover
+{
+    cursor: pointer;
+    background-color: var(--fourth);
+}
+
+/*main*/
+
+.porque-contribuir
+{
+    margin-top: 2rem;
+    padding-top: 0.1rem;
+    background-color: #46887d;;
+    border-radius: 15px;
+}
+.porque-titulo
+{
+    width: 30rem;
+    margin: 0 auto;
+}
+.porque-contribuir-group
+{
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+.porque-contribuir-mini-group
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.motivo
+{
+    height: 18rem;
+    width: 12rem;
+    text-align:left;
+    border: 2px solid var(--seventh);
+    border-radius: 15px;
+}
+
+.motivo img
+{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.motivo p
+{
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+.motivo span
+{
+    font-weight: 600;
+}
+.align-motivo-img
+{
+    width: 5rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+
+.motivos-parteII
+{
+    padding-top: 0.5rem;
+}
+
+.motivos-parteII .porque-titulo
+{
+    width: 38rem;
+}
+
+.infos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.info
+{
+    width: 10rem;
+    height: 16rem;
+    text-align: justify;
+}
+.info-image
+{
+    height: 2rem;
+    width: 2rem;
+    margin: 0 auto;
+}
+.info img
+{
+    height: 2rem;
+    width: 2rem;
+}
+
+.video
+{
+    width: 52rem;
+    background-color: var(--second);
+    margin: 0 auto;
+    height: 27rem;
+    padding-top: 1.5rem;
+    padding-left:2rem;
+    border-radius: 15px;
+}
+
+.more-infos
+{
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.more-infos h2
+{
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.more-infos p
+{
+    width: 40rem;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 1rem;
+
+}
+.more-infos-text
+{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.more-infos-text a
+{
+    color: var(--fifth);
+    font-weight: 700;
+}
+.more-infos .button
+{
+    margin-left: 34rem;
+}
+
+/*FOOTER*/
+
+footer
+{
+    background-color: var(--fourth);
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--first);
+}
+
+.itens-footer
+{
+    width: 50rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+footer p
+{
+    width: 40rem;
+    text-align: justify;
+}
+.back-img img
+{
+    width: 5rem;
+    height: 5rem;
+}
+
+.back-img
+{
+    background-color: var(--first);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+    margin: 0 auto;
+}

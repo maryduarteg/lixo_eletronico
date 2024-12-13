@@ -1,0 +1,41 @@
+.details
+{
+    width: 70rem;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+span a, h3 a
+{
+    color:#014034;
+    font-weight: 700;
+}
+
+h3, h2
+{
+    text-align: center;
+}
+
+.thanks
+{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+.image
+{
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: #4242422a;
+    border-radius: 80%;
+    
+}
+img
+{
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+

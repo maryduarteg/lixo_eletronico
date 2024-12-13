@@ -1,0 +1,80 @@
+:root
+{
+    --fifth: #014034;
+}
+
+.head
+{
+    text-align: center;
+}
+
+.locais-geral-group
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.locais-group
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.box-local .image
+{
+    width: 25rem;
+    height: 16rem;
+}
+.box-local img
+{
+    width: 25rem;
+    height: 16rem;
+    border-radius: 10px;
+}
+
+.box-local .image  h6
+{
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.box-local p
+{
+    width: 25rem;
+    text-align: justify;
+}
+
+.texto p img
+{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.img-pix img
+{
+    width: 8rem;
+    height: 8rem;
+}
+
+.destaque
+{
+    color: var(--fifth);
+    font-weight: 700;
+}
+
+.contribuicao-pix
+{
+    margin-bottom: 3rem;
+}
+
+.texto-pix, .img-pix
+{
+    width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
